@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dickens Secondary School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <h1>Dickens Secondary School</h1>
+            </div>
+            
+
+            
+            <!-- Simple Navigation -->
+             <nav class="desktop-nav">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">About <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="/pages/school-background.html">School Background</a>
+                        <a href="/pages/location.html">Location</a>
+                        <a href="/pages/wall-of-fame.html">Wall of Fame</a>
+                        <a href="/pages/news.html">News</a>
+                        <div class="dropdown">
+    <a href="#" class="dropdown-toggle">Student Portal <i class="fas fa-chevron-down"></i></a>
+    <div class="dropdown-menu">
+        <a href="/student/login.html">Login</a>
+        <a href="/student/register.html">Register</a>
+    </div>
+</div>
+                    </div>
+                </div>
+                <a href="/pages/admissions.html">Admissions</a>
+                <a href="/pages/contacts.html">Contact</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle">Staff <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="/teacher/login.html">Teacher</a>
+                            <a href="/headmaster/login.html">Headmaster</a>
+                            <a href="/admin">System Admin</a>
+                        </div>
+                    </div>
+    </div>
+</div>
+            </nav>
+
+            
+            <!-- Mobile Menu Button -->
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+<!-- Mobile Navigation Panel (slide‑out) -->
+<div class="mobile-nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li class="mobile-dropdown">
+            <a href="#" class="dropdown-toggle">About <i class="fas fa-chevron-down"></i></a>
+            <ul class="mobile-submenu">
+                <li><a href="/pages/school-background.html">School Background</a></li>
+                <li><a href="/pages/location.html">Location</a></li>
+                <li><a href="/pages/wall-of-fame.html">Wall of Fame</a></li>
+                <li><a href="/pages/news.html">News</a></li>
+            </ul>
+        </li>
+        <li><a href="/pages/admissions.html">Admissions</a></li>
+        <li><a href="/pages/contacts.html">Contact</a></li>
+                <li class="mobile-dropdown">
+            <a href="#" class="dropdown-toggle">Staff <i class="fas fa-chevron-down"></i></a>
+            <ul class="mobile-submenu">
+                <li><a href="/teacher/login.html">Teacher Portal</a></li>
+                <li><a href="/hod/login.html">HOD Portal</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<!-- Overlay for mobile menu -->
+<div class="mobile-overlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="search">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="container">
+            <h2>Welcome to Dickens Secondary School</h2>
+            <p>Excellence in Education Since 1985</p>
+            <a href="pages/admissions.html" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat">
+                <i class="fas fa-user-graduate"></i>
+                <h3>1,200+</h3>
+                <p>Students</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>85+</h3>
+                <p>Teachers</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-trophy"></i>
+                <h3>45+</h3>
+                <p>Awards</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Add this new section to your index.html -->
+<section class="latest-news-preview">
+    <div class="container">
+        <h2>Latest School News</h2>
+        <p>Stay updated with our latest announcements and events.</p>
+        <div id="homepage-news-container">
+            <!-- News teasers will be inserted here by JavaScript -->
+            <p>Loading the latest news...</p>
+        </div>
+        <a href="pages/news.html" class="btn">View All News Articles</a>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Column 1: School Info -->
+            <div class="footer-col">
+                <h4>Dickens Secondary School</h4>
+                <p>Providing quality education since 1995. Empowering students for a brighter future.</p>
+            </div>
+
+            <!-- Column 2: About Links -->
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="/pages/school-background.html">School Background</a></li>
+                    <li><a href="/pages/location.html">Location</a></li>
+                    <li><a href="/pages/wall-of-fame.html">Wall of Fame</a></li>
+                    <li><a href="/pages/news.html">News</a></li>
+                </ul>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle">Student Portal <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="/student/login.html">Login</a></li>
+                                <li><a href="/student/register.html">Register</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Column 3: Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/pages/admissions.html">Admissions</a></li>
+                    <li><a href="/pages/contacts.html">Contact</a></li>
+                </ul>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-toggle">Staff <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="/teacher/login.html">Teacher</a></li>
+                                <li><a href="/headmaster/login.html">Headmaster</a></li>
+                                <li><a href="/admin">System Admin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Column 4: Contact Info -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 School Rd, City</li>
+                    <li><i class="fas fa-phone"></i> +256 700 000000</li>
+                    <li><i class="fas fa-envelope"></i> info@dickensschool.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright line -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Dickens Secondary School. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/main.js"></script>
+    <script>
+    async function loadLatestNews() {
+        const container = document.getElementById('homepage-news-container');
+        try {
+            const response = await fetch('http://localhost:5000/api/news');
+            const result = await response.json();
+
+            if (result.success && result.data.length > 0) {
+                let html = '';
+                // Show only the 3 most recent articles
+                const latestArticles = result.data.slice(0, 3);
+                latestArticles.forEach(article => {
+                    const date = new Date(article.date).toLocaleDateString();
+                    // Show a short preview of the content (first 150 characters)
+                    const shortContent = article.content.substring(0, 150) + '...';
+                    html += `
+                    <div class="news-teaser">
+                        <h3>${article.title}</h3>
+                        <p><small>${date} | By ${article.author}</small></p>
+                        <p>${shortContent}</p>
+                    </div>
+                    `;
+                });
+                container.innerHTML = html;
+            } else {
+                container.innerHTML = '<p>Check back soon for news updates!</p>';
+            }
+        } catch (error) {
+            console.error('Error loading latest news:', error);
+            container.innerHTML = '<p>Latest news will be displayed here.</p>';
+        }
+    }
+    // Load the news when the page is ready
+    document.addEventListener('DOMContentLoaded', loadLatestNews);
+</script>
+
+<!-- search functionality -->
+<script>
+    document.getElementById('searchBtn').addEventListener('click', function() {
+        const query = document.getElementById('searchInput').value.trim();
+        if (query) {
+            window.location.href = '/search.html?q=' + encodeURIComponent(query);
+        }
+    });
+    document.getElementById('searchInput').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            const query = this.value.trim();
+            if (query) {
+                window.location.href = '/search.html?q=' + encodeURIComponent(query);
+            }
+        }
+    });
+</script>
+<script src="/js/menu.js"></script>
+
+</body>
+</html>
